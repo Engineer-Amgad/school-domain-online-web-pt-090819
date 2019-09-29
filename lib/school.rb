@@ -9,7 +9,7 @@ class School
     @roster ={}
   end 
   
-  def roster=(student_name, grade)
+  def add_student=(student_name, grade)
    
     @roster[grade] = [] unless @roster.key?(grade)
     @roster[grade] << student_name

@@ -18,8 +18,8 @@ class School
   end 
   
   def sort
-    @roster.map do |grade, student|
-      
+    @roster.collect do |grade, student|
+      student.sort
       binding.pry 
     end
     

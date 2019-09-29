@@ -4,7 +4,7 @@ class School
   
   def initialize(name)
     @name = name
-    brinding.pry
+    #brinding.pry
     @roster ={}
   end 
   

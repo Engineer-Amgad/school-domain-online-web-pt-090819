@@ -13,8 +13,8 @@ class School
     @roster[grade] << student_name
   end 
   
-  def grade(grade)
-    return @roster[:grade]
+  def grade(grade_level)
+    return @roster[:grade][:grade_level]
   end 
 end 
 

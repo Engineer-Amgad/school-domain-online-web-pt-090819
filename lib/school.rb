@@ -16,6 +16,10 @@ class School
   def grade(grade_level)
     return @roster[grade_level]
   end 
+  
+  def sort
+    @roster.sort
+  end 
 end 
 
 # class Book

@@ -5,18 +5,17 @@ class School
   
   def initialize(name)
     @name = name
-    #brinding.pry
     @roster ={}
   end 
   
   def add_student(student_name, grade)
-   
     @roster[grade] = [] unless @roster.key?(grade)
     @roster[grade] << student_name
-    
   end 
   
-  #school = School.new
+  def grade(grade)
+    return @roster[:grade]
+  end 
 end 
 
 # class Book

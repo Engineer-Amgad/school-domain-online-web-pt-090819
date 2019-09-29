@@ -14,7 +14,7 @@ class School
   end 
   
   def grade(grade_level)
-    return @roster[:grade][grade_level]
+    return @roster[grade_level]
   end 
 end 
 
